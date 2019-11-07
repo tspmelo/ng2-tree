@@ -55,7 +55,8 @@ function getSystemJsBundleConfig() {
       '@angular': './node_modules/@angular',
       rxjs: './node_modules/rxjs/bundles',
       uuid: './node_modules/uuid',
-      crypto: '@empty'
+      crypto: '@empty',
+      tslib: './node_modules/tslib/tslib.js'
     },
     paths: {
       '*': '*.js'
