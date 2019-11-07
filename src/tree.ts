@@ -1,7 +1,6 @@
 import { defaultsDeep, get, has, includes, isEmpty, isFunction, isNil, omit, once, size, trim } from './utils/fn.utils';
 
-import { Observable, of } from 'rxjs';
-import { Observer } from 'rxjs/Observer';
+import { Observable, of ,  Observer } from 'rxjs';
 import {
   ChildrenLoadingFunction,
   FoldingType,

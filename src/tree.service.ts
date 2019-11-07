@@ -1,7 +1,6 @@
 import { ElementRef, Inject, Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable ,  Subject } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { Subject } from 'rxjs/Subject';
 import { NodeDraggableEvent } from './draggable/draggable.events';
 import { NodeDraggableService } from './draggable/node-draggable.service';
 import { Tree } from './tree';

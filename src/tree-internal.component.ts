@@ -11,7 +11,7 @@ import {
   ViewChild
 } from '@angular/core';
 import { filter, merge } from 'rxjs/operators';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 import { NodeDraggableEvent } from './draggable/draggable.events';
 import { NodeEditableEvent, NodeEditableEventAction } from './editable/editable.events';
 import { NodeMenuItemAction, NodeMenuItemSelectedEvent } from './menu/menu.events';
